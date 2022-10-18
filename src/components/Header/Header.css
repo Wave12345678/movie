@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Mainheader jsx */
+
+.header {
+    background: url('../../img/Slider1.jpg') no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* Header jsx */
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.logo-img {
+    margin-top: 15px;
+}
+
+.logo-text {
+    margin-top: 28px;
+    margin-left: 24px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-input {
+    margin-top: 22px;
+    width: 525px;
+    border: 2px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+.header-input__area {
+    background-color: transparent;
+    width: 500px;
+    border: none;
+
+}
+
+.header-input__area::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 10px;
+}
+
+.header__search-icon {
+    float: right;
+}
+
+.header-nav {
+    display: flex;
+    margin-top: 22px;
+
+}
+
+.header-nav__sign-in {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.header-nav__menubar {
+    height: 36px;
+    margin-left: 27px;
+}
+
+
+/* Hero */
+
+.hero {
+    margin-top: 222px;
+    margin-left: 98px;
+    width: 404px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.hero__ranking {
+    margin-top: 16px;
+    display: flex;
+}
+
+.imdb {
+    display: flex;
+}
+
+.imdb__text {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.tomato-ranking {
+    margin-left: 34px;
+    display: flex;
+}
+
+.tomato-ranking__text1 {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.hero__text {
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+.hero__btn {
+    margin-top: 16px;
+}

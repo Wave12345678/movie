@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list__top {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.lists__title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.see-more {
+    font-size: 18px;
+    color: #BE123C;
+    cursor: pointer;
+}
+
+.list__cards {
+    padding-top: 44px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-year {
+    font-size: 12px;
+    color: #9CA3AF;
+    margin-top: 12px;
+}
+
+.list__card-title {
+    font-size: 18px;
+    color: #111827;
+    margin-top: 12px;
+}
+
+.list__ranking {
+    margin-top: 14px;
+    display: flex;
+}
+
+.list-imdb {
+    display: flex;
+}
+
+.list-imdb__text {
+    color: #111827;
+    margin-left: 10px;
+}
+
+.tomato-ranking {
+    margin-left: 34px;
+    display: flex;
+}
+
+.tomato-ranking__text {
+    color: #111827;
+    margin-left: 10px;
+}
+
+.list__category {
+    font-size: 12px;
+    color: #9CA3AF;
+    margin-top: 14px;
+}
+
+
+.left-arrow {
+    transform: translate(0, 33vh);
+}
+
+.right-arrow {
+    float: right;
+    transform: translate(0, -33vh);
+
+}
+
+/* mt23 */
+.list-margin {
+    margin-top: 93px;
+}
+
+
+/* Exclusive */
+
+.left-arrow-ex {
+    transform: translate(0, 20.5vh);
+
+}
+
+.right-arrow-ex {
+    float: right;
+    transform: translate(0, -19vh);
+
+}
+
+.exclusive__text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111827;
+}
+
+/* Cast */
+
+.cast-name {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #111827;
+
+}

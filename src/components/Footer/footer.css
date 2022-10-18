@@ -1,0 +1,36 @@
+.footer {
+    width: 492px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.footer__soc-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 126px;
+}
+
+/* .social-icon {
+    margin-left: 48px;
+} */
+
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 37px;
+}
+
+.footer__nav-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111827;
+}
+
+.footer__bottom {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6B7280;
+    align-items: center;
+    margin-top: 36px;
+    padding: 0 10%;
+}
