@@ -1,0 +1,39 @@
+.card-year {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-style: 12px;
+    line-height: 16px;
+    color: #9ca3af;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-style: 18px;
+    line-height: 23px;
+    color: #9ca3af;
+}
+
+.card-mark {
+    margin-bottom: 12px;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 700;
+    font-style: 12px;
+    line-height: 16px;
+    color: #9ca3af;
+}
+
+.movies {
+    margin: 25px 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    width: 300px;
+}
